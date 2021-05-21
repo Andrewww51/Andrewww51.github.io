@@ -1,0 +1,202 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+/* ========== CSS Basics ========= */
+
+.logo {
+  display: inline-block;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  background: #6200EA;
+  margin: 0px;
+  color: lightgray;
+  height: 3.6vw;
+}
+
+.navigation:hover {
+  border-color: white;
+  color: white;
+  transition: .15s;
+}
+
+.navigation {
+  padding-bottom: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-family: Montserrat;
+  font-weight: bold;
+  padding-top: 10px;
+  border-bottom: solid;
+  border-color:   transparent;
+  border-width: 3px;
+  
+}
+
+.logo-place {
+  
+}
+
+.basic {
+  background: #F4F3F5;
+}
+
+.part {
+  background: white;
+  margin: 2vw;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.picture {
+  width: 420px;
+  height: 280px;
+  border-radius: 15px;
+}
+
+.picture-row {
+  display: flex;
+  justify-content: center;
+  padding-top: .8vw;
+} 
+
+.text-row {
+  padding: 2vw;
+  font-family: Montserrat;
+  
+}
+
+.text-blue {
+  color: #6200EA;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+}
+
+
+.icon {
+  padding-right: 6px;
+  padding-top: 2vh;
+  font-size: 2.3rem;
+}
+
+.text {
+  font-family: Montserrat;
+  padding-bottom: 1vw;
+}
+
+
+.text-contact {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.field {
+  background: #F4F3F5;
+  width: 100%;
+  height: 5vh;
+  border: 0px;
+  margin-bottom: 2vh;
+}
+
+
+.right-text {
+  padding: 1vw;
+}
+
+
+.big-field {
+  height: 17vh;
+}
+
+.submit {
+  width: 100%;
+  background: #6200EA;
+  border-radius: 35px;
+}
+
+.footer {
+  background: #211138;
+  height: 70px;
+  padding-top: 4vh;
+}
+
+
+.footer-text {
+  display: inline-block;
+  font-family: Montserrat;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+}
+
+.gray-text {
+  color: #B2ACBA;
+}
+
+
+.blue-text {
+  color: #6200EA;
+}
+
+.map-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+
